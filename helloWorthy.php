@@ -12,36 +12,19 @@ Version: 1.0
 Author URI: http://worthyontheweb.co.uk
 */
 
-function hello_dolly_get_lyric() {
-	/** These are the lyrics to Hello Dolly */
-	$lyrics = "Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-We feel the room swayin'
-While the band's playin'
-One of your old favourite songs from way back when
-So, take her wrap, fellas
-Find her an empty lap, fellas
-Dolly'll never go away again
-Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-We feel the room swayin'
-While the band's playin'
-One of your old favourite songs from way back when
-Golly, gee, fellas
-Find her a vacant knee, fellas
-Dolly'll never go away
-Dolly'll never go away
-Dolly'll never go away again";
+function hello_worthy_get_quote() {
+	/** These are the lyrics to I love your smile*/
+	$lyrics = "Hello, Worthy,
+	Sitting in my class, just driftin' away,
+	Staring into the windows of the world, yeah,
+	I cant hear the teacher, his books don't call me at all,
+	I dont see the bad boys tryin' to catch some play,Cause I love your smile,
+	I love your smile,The clock at work says 3,
+	And I wanna be free,
+	Free to scream, free to bathe, free to paint
+	My toes all day,
+	My boss is lame you know, and so is the pay,
+	I'm gonna put that new black mini on my charge anyway,";
 
 	// Here we split it into lines
 	$lyrics = explode( "\n", $lyrics );
@@ -51,8 +34,8 @@ Dolly'll never go away again";
 }
 
 // This just echoes the chosen line, we'll position it later
-function hello_dolly() {
-	$chosen = hello_dolly_get_lyric();
+function hello_worthy() {
+	$chosen = hello_worthy_get_quote();
 	echo "<p id='dolly'>$chosen</p>";
 }
 
