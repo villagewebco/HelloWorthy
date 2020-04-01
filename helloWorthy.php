@@ -36,7 +36,7 @@ function hello_worthy_get_quote() {
 // This just echoes the chosen line, we'll position it later
 function hello_worthy() {
 	$chosen = hello_worthy_get_quote();
-	echo "<p id='dolly'>$chosen</p>";
+	echo "<p id='worthy'>$chosen</p>";
 }
 
 // Now we set that function up to execute when the admin_notices action is called
@@ -49,7 +49,7 @@ function dolly_css() {
 
 	echo "
 	<style type='text/css'>
-	#dolly {
+	#worthy {
 		float: $x;
 		padding-$x: 15px;
 		padding-top: 5px;		
@@ -60,6 +60,6 @@ function dolly_css() {
 	";
 }
 
-add_action( 'admin_head', 'dolly_css' );
+add_action( 'admin_head', 'worthy_css' );
 
 ?>
