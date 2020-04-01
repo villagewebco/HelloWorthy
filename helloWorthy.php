@@ -13,7 +13,7 @@ Author URI: http://worthyontheweb.co.uk
 */
 
 function hello_worthy_get_quote() {
-	/** These are the lyrics to I love your smile*/
+	/** These are the lyrics to I love your smile and some random quotes*/
 	$lyrics = "Hello, Worthy,
 	Sitting in my class, just drifting away,
 	Staring into the windows of the world, yeah,
@@ -24,7 +24,9 @@ function hello_worthy_get_quote() {
 	Free to scream, free to bathe, free to paint
 	My toes all day,
 	My boss is lame you know, and so is the pay,
-	I'm gonna put that new black mini on my charge anyway,";
+	I'm gonna put that new black mini on my charge anyway,
+	A cup of tea makes everything better,
+	Why fit in when you were born to stand out - Dr Seuss,";
 
 	// Here we split it into lines
 	$lyrics = explode( "\n", $lyrics );
@@ -43,7 +45,7 @@ function hello_worthy() {
 add_action( 'admin_notices', 'hello_worthy' );
 
 // We need some CSS to position the paragraph
-function dolly_css() {
+function worthy_css() {
 	// This makes sure that the positioning is also good for right-to-left languages
 	$x = is_rtl() ? 'left' : 'right';
 
