@@ -15,7 +15,7 @@ Author URI: http://worthyontheweb.co.uk
 function hello_worthy_get_quote() {
 	/** These are the lyrics to I love your smile*/
 	$lyrics = "Hello, Worthy,
-	Sitting in my class, just driftin' away,
+	Sitting in my class, just drifting away,
 	Staring into the windows of the world, yeah,
 	I cant hear the teacher, his books don't call me at all,
 	I dont see the bad boys tryin' to catch some play,Cause I love your smile,
