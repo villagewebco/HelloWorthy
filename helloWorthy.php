@@ -21,8 +21,7 @@ function hello_worthy_get_quote() {
 	I dont see the bad boys tryin' to catch some play,Cause I love your smile,
 	I love your smile,The clock at work says 3,
 	And I wanna be free,
-	Free to scream, free to bathe, free to paint
-	My toes all day,
+	Free to scream, free to bathe, free to paint my toes all day,
 	My boss is lame you know, and so is the pay,
 	I'm gonna put that new black mini on my charge anyway,
 	A cup of tea makes everything better,
