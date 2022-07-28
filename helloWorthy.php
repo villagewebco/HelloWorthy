@@ -25,6 +25,7 @@ function hello_worthy_get_quote() {
 	My boss is lame you know, and so is the pay,
 	I'm gonna put that new black mini on my charge anyway,
 	A cup of tea makes everything better,
+	Smile and the whole world smiles with you,
 	Why fit in when you were born to stand out - Dr Seuss,";
 
 	// Here we split it into lines
