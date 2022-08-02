@@ -15,15 +15,15 @@ Author URI: http://worthyontheweb.co.uk
 function hello_worthy_get_quote() {
 	/** These are the lyrics to I love your smile and some random quotes*/
 	$lyrics = "Hello, Worthy,
-	Sitting in my class, just drifting away,
-	Staring into the windows of the world, yeah,
-	I cant hear the teacher, his books don't call me at all,
-	I dont see the bad boys tryin' to catch some play,Cause I love your smile,
-	I love your smile,The clock at work says 3,
-	And I wanna be free,
-	Free to scream, free to bathe, free to paint my toes all day,
-	My boss is lame you know, and so is the pay,
-	I'm gonna put that new black mini on my charge anyway,
+	Be ready to evolve,
+	Always work as a team,
+	Improvement is necessary,
+	Ask the dumb question,
+	Don't underestimate the power of design skills,
+	Work closely with your customers,
+	Go beyond just writing code,
+	Pay close attention to the architecture,
+	Consider accessibility,
 	A cup of tea makes everything better,
 	Why fit in when you were born to stand out - Dr Seuss,";
 
