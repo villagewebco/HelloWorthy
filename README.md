@@ -1,7 +1,7 @@
 # HelloWorthy
 === Hello Worthy ===
 
-A test plugin based on the Hello Dolly WordPress plugin
+A test plugin based on the Hello Dolly WordPress plugin - original version from @worthyontheweb
 
 == Description ==
 
